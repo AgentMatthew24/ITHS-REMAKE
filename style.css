@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.nav-logo {
+    width: 40px;
+}
+#navbarNav{
+    display:flex;
+    justify-content:center;
+}
+
+
+.links{
+	font-size:1.15em;
+	
+}
+
+.calender{
+	color: black;
+}
+
+.ITHS-BUILDING{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:74.375vw;
+    height:62.5vh;
+    
+    
+}
+
+	
+
+.Main-buttons{
+    font-size: 1.15em;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 35px 40px;
+    background: #000000;
+    color: #ffffff;
+    border-left: 1px solid #000000;
+    margin: 0;
+	width:74.375vw;
+    height: 100%;
+}
+.main-container{
+    background-color:red;
+	height: auto;
+	
+}
+
+
+.intro-video-section{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:74.375vw;
+    height: 100%;
+    background-image: url(./IMG/ITHS.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.video{
+    width:20vw;
+    height:40vh;
+    border:2px black solid;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10vh;
+}
