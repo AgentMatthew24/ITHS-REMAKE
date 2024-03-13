@@ -8,7 +8,33 @@
     display:flex;
     justify-content:center;
 }
+#dropdown-aca{
+	display: none;
+}
+#academics-drop:hover #dropdown-aca{
+	display: block;
+	
+}
+#dropdown-acts {
+  display: none;
+}
 
+#activitives-drop:hover #dropdown-acts {
+  display: block;
+}
+#dropdown-CTE {
+  display: none;
+    position: absolute;
+    left: 140%;
+	top: 85px;
+    
+}
+
+#CTE-drodown:hover #dropdown-CTE {
+  display: block;
+	right: auto;
+    left: 100%;
+}
 
 .links{
 	font-size:1.15em;
@@ -28,8 +54,15 @@
     
     
 }
+.sub-menu:hover .games-menu {
+  display: block;
+}
 
-	
+.sub-menu2:hover .our-pick-menu {
+  display: block;
+}
+
+
 
 .Main-buttons{
     font-size: 1.15em;
